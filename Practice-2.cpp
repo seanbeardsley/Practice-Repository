@@ -2,21 +2,21 @@
 
 using namespace std;
 
-int fibonacci(int N){
+// int fibonacci(int N){
 
-  if (N == 0){
-    return 0;
-  }
+//   if (N == 0){
+//     return 0;
+//   }
 
-  else if (N == 1){
-    return 1;
-  }
+//   else if (N == 1){
+//     return 1;
+//   }
 
-  else {
-    return fibonacci(N) + 1;
-  }
+//   else {
+//     return fibonacci(N) + 1;
+//   }
     
-}
+// }
 
 int main(){
 
@@ -24,7 +24,7 @@ int main(){
 
   // cout << "I made this change on vs code." << endl;
 
-  cout << fibonacci(10) << endl;
+  // cout << fibonacci(10) << endl;
 
   return 0;
 }
